@@ -304,10 +304,3 @@ For more information on deploying an LLM model in Azure Foundry, refer to the [o
    - Error: "Port already in use"
    - Solution: Change the port in `local.settings.json` or kill the process using the current port.
 
-## Contribution
-
-Contributions are welcome! Feel free to open **[issues](https://github.com/Azure-Samples/microblog-ai-swa-remix/issues)** and **[pull requests for improvements](https://github.com/Azure-Samples/microblog-ai-swa-remix/pulls)**, bug fixes, or new features.
-
-## License
-
-This project is licensed under the MIT License. By contributing to this repository, you agree that your contributions will be licensed under the MIT license. For more details, see the [LICENSE](LICENSE) file.
