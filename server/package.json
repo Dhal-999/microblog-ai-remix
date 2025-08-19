@@ -1,0 +1,35 @@
+{
+  "name": "microblog-ai-remix-server",
+  "version": "1.0.0",
+  "description": "Express Server for Remix Application with Azure OpenAI with Azure Container Apps",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rimraf dist",
+    "prestart": "npm run clean && npm run build",
+    "dev": "npm run clean && npm run build && npm run start",
+    "start": "node dist/index.js",
+    "prebuild": "npm run clean",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@remix-run/express": "^2.16.0",
+    "compression": "^1.8.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.x",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
